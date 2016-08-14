@@ -47,6 +47,7 @@ body {
        font-family: 'Open Sans Condensed', sans-serif;
        font-size: 1.6em;
        display: inline-block;
+       padding-top: 3%;
        
        }
 
@@ -55,8 +56,8 @@ body {
 .intro:first-letter {
     color: #FA0004;
     float: left;
-    font-size: 21em;
-    
+    font-size: 550px;
+    line-height: 800px;
     margin: 0;
     padding: 0;
     }
