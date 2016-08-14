@@ -45,8 +45,8 @@ body {
 
 .intro {
        font-family: 'Open Sans Condensed', sans-serif;
-       font-size: 1.6em;
-       display: inline-block;
+       font-size: 1.5em;
+       text-align: left;
        padding-top: 3%;
        
        }
@@ -56,12 +56,13 @@ body {
 .intro:first-letter {
     color: #FA0004;
     float: left;
-    font-size: 550px;
-    line-height: 800px;
-    margin: 0;
-    padding: 0;
+    font-size: 21em;
+    line-height: 0.85;
+    margin: 0.1% 0 0 .5%;
+    text-align: left;
     }
-
+    
+    
 #scenic {
     display: inline-block;
     width: 95%;
@@ -93,8 +94,7 @@ body {
     display: block;
     }
     
-    
-    
+
 .famous {
     font-style: italic;
     font-size: 1em;
