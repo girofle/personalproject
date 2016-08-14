@@ -56,8 +56,8 @@ body {
 .intro:first-letter {
     color: #FA0004;
     float: left;
-    font-size: 25em;
-    line-height: 1;
+    font-size: 22em;
+    line-height: 0.5;
     margin: 0 0 0 .5%;
     text-align: left;
     }
