@@ -1,0 +1,283 @@
+body {
+    width: 960px;
+    margin: auto;
+    }
+
+.nav ul { 
+        list-style: none;
+        text-align: center;
+        padding: 0;
+        margin-top: 4%;
+      }
+
+ .nav li {
+      font-family: 'Anton', sans-serif;
+      font-size: 2.2em;
+      line-height: normal;
+      height: 20%;
+      width: 33%;
+      margin: 0;
+     display: inline-block;
+     padding: 0;
+    }
+
+/* chosen color palette is Icelandic flag colors */   
+
+    .nav a {
+      text-decoration: none;
+      color: #DC1E35;
+    }
+    
+    .nav a:hover {
+      background-color: #02529C;
+    }
+    
+    
+.country-name {
+    font-family: 'Anton', sans-serif;
+    font-size: 7.5em;
+    text-align: center;
+    color: #FFF;
+    background-color:  #02529C;
+    margin-bottom: 4%;
+    padding: 0;
+    }
+
+.intro {
+       font-family: 'Open Sans Condensed', sans-serif;
+       font-size: 1.6em;
+       padding-bottom: 33%;
+       }
+
+/* pseudo selector first letter styled to form a drop-cap effect */ 
+
+.intro:first-letter {
+    color: #FA0004;
+    float: left;
+    font-size: 20em;
+    line-height: 50;
+    padding: .5% .2% 10% 0;
+    }
+
+#scenic {
+    display: inline-block;
+    width: 95%;
+    padding: 0;
+    margin: 0 4% 2.8% 3.5%;
+    }
+
+/* quote about Iceland floats right */ 
+
+.quote{
+    font: 20px 'Open Sans Condensed', sans-serif;
+    color: #FFF;
+      float: right;
+    width: 50%;
+    margin: 0;
+    padding: 1%;
+    border: 20px;
+    border-radius: 15px;
+    background-color: #FA0004;
+    }
+    
+/* peekaboo effect is achieved with hover on bird image and quote */ 
+
+.intro:hover>.bird {
+    display: none;
+    }
+    
+.intro:hover>.quote {
+    display: block;
+    }
+    
+    
+    
+.famous {
+    font-style: italic;
+    font-size: 1em;
+    font-weight: bolder;
+ 
+ }
+ 
+ .landscape {
+     float: left;
+ }
+ 
+ caption{
+     text-align: left;
+     font-family: 'Anton', sans-serif;
+     font-size: 2.2em;
+     color: #FA0004;
+ }
+ 
+ 
+th {
+     font-family: 'Open Sans Condensed', sans-serif;
+     font-size: 1.5em;
+     width: 28%;
+     
+     }
+     
+
+td {
+    font-size: 1.2em;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: left;
+  width: 12%;
+  
+}
+
+tr {
+    font-size: 1em;
+    text-align: left;
+    width: 72%;
+    
+}
+
+td {
+    background-color: #F7F7F7;
+}
+
+.lagoon a {
+    text-decoration: none;
+    color: #C84EF5;
+ }
+
+.falls a {
+    text-decoration: none;
+    color: #C84EF5;
+}
+
+.beach a {
+    text-decoration: none;
+    color: #C84EF5;
+    }
+
+
+.icelandair a {
+    text-decoration: none;
+    color: #C84EF5;
+   
+}
+
+.nordic a {
+    text-decoration: none;
+    color: #C84EF5;
+  
+}
+
+.join {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2em;
+}
+
+
+.intouch {
+    color: #FA0004;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
+
+/* form overflow value must be hidden to contain form elements */ 
+
+form {
+    border: 1px solid #E6F1F5;
+  border-radius: 5px;
+  font: 1.5em, 'Open Sans Condensed' sans-serif;
+  overflow: hidden;
+  width: 25%;
+  }
+/* form width value must be 240px to contain all form elements */ 
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+    }
+  
+  action {
+      padding: 5% 5% 0 5%;
+  }  
+  
+
+/*used CSS3 to style input boxes */
+
+input {
+      border-radius: 5px;
+     font-size: 1.2em;
+     height: 1.5em;
+	width: 89%;
+    margin-left: 4%;
+	-webkit-box-shadow: inset 0 0 5px #02529C;
+	 -moz-box-shadow: inset 0 0 5px #02529C;
+	 box-shadow: inset 0 0 5px #02529C;
+ }
+ 
+ submit {
+     font-family: 'Open Sans Condensed', sans-serif;
+    border-radius: 20%;
+    font-size: 1.2em;
+    margin-top: 5%;
+    text-align: center;
+     }
+ 
+ .action {
+     font-family: 'Open Sans Condensed', sans-serif;
+     font-size: 1.2em;
+  }
+
+.message {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.1em;
+    
+}
+
+.email{
+    font-family: 'Open Sans Condensed', sans-serif;
+     font-size: 1.1em;
+     margin: .5%;
+    }
+    
+button {
+    font-family: 'Open Sans Condensed', sans-serif;
+     font-size: 1.1em;
+     margin: 8%;
+     color: #FA0004;
+    }
+
+/*used CSS3 to style message textarea box */
+#msg {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2em;
+    width: 89%;
+    height: 7em;
+    margin-left: 4%;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 5px #02529C;
+	 -moz-box-shadow: inset 0 0 5px #02529C;
+	 box-shadow: inset 0 0 5px #02529C;
+    }
+
+#back-home {
+    font-size: 1.2em;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 4% 0 4% 0;
+    text-align: center;
+    width: 15%;
+    border: 10px double;
+      border-color:  #02529C #FA0004 ;
+      border-radius: 50px;
+      padding: 0.6%;
+    }
+
+#back-home a {
+    text-decoration: none;
+    color: #02529C;
+    }
+    
+#back-home a:hover {
+     color: #FA0004;
+     border: 2px solid;
+     border-radius: 10px;
+     padding: 1.5%;
+    }

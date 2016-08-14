@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <meta charset="utf-8">
+        <link rel="stylesheet" href="iceland.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans+Condensed:700" rel="stylesheet">
+        <title>Contact Us</title>
+    </head>
+    <body>
+        
+        <!---content starts here--> 
+        <div id="back-home"><a href="index.html">Back to Home</a></div>
+
+        <div class="join">
+        <h1 class="intouch">Stay In Touch</h1>
+        <p class="needs">Join our list to hear about exclusive deals</p>
+        <h2 class="contact">Contact Us</h2>
+        </div>
+        
+        <!--- form starts here -->
+    
+        <form action="/contact" method="post">
+     
+         <!--- form must include email label ---> 
+     
+        <fieldset class="email">
+            
+            <label>
+            Email
+          <input type="email" id="mail" name="user_mail" />
+            </label> 
+        
+         <!--- form must include confirm email label--->
+     
+     <label>
+       Confirm your email
+         <input type="email" id="mail" name="user_mail" />
+          </label>
+        
+    
+    </fieldset>
+    
+        <!--- sign-up button starts here --->
+    
+    <fieldset class="action">
+      
+       <label>Message
+        <textarea id="msg" name="user_message"></textarea>
+         
+       </label>
+        <label>
+           <button name="button">Sign Up Now</button>
+        </label>
+        
+    </fieldset>
+        
+    
+    </form>
+       <!--- form ends here --->         
+            
+ 
+    </body>
+</html>
