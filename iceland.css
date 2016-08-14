@@ -46,7 +46,7 @@ body {
 .intro {
        font-family: 'Open Sans Condensed', sans-serif;
        font-size: 1.6em;
-       padding-bottom: 33%;
+       
        }
 
 /* pseudo selector first letter styled to form a drop-cap effect */ 
@@ -54,7 +54,8 @@ body {
 .intro:first-letter {
     color: #FA0004;
     float: left;
-    font-size: 34em;
+    font-size: 21em;
+    line-height: 15;
     margin: 0;
     padding: 0;
     }
